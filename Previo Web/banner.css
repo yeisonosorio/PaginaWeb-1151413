@@ -1,0 +1,166 @@
+.slider{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite alternate;
+
+}
+
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+.slider img{
+	width: 100%;
+
+}
+
+@keyframes cambio{
+
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+
+}
+
+
+
+.footer{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 50px;
+	background: #333;
+  	color: #fff;
+  	text-align: center;
+  	display: inline-flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	border-top: 10px;
+
+}
+.footer ul {
+	display: flex;
+	width: 100%;
+	padding: 0;
+}
+.footer li{
+	width: 100%;
+	list-style: none;
+
+}
+
+.footer img{
+	width: 100%;
+}
+
+
+.comprar img{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+.section{
+		background: #F7F7F7;
+		display: flex;
+	}
+		.articulos{
+			background: #f7f7f7;
+			flex:8 4 2 2 45%;
+			display: flex;
+			flex-flow: row wrap;
+		}
+			.article{
+				flex:4 4 auto;
+				color:#444;
+				font-size: 13px;
+				letter-spacing: 1px;
+				margin: 10px 10px 0 0px;
+				flex: 8 4 45%;*/
+				background: #ececec;
+				flex-flow: row wrap;
+			}
+
+			.article img{
+				width: 100%;
+			}
+			.article a{
+				color: #fff;
+				font-size: 13px;
+				padding: 10px;
+				background: blue;
+				margin: 10px 0;
+				display: inline-block;
+			}
+			.article a:hover{
+				background: #546cc3;
+			}
+			h3{
+				color: black;
+				font-size: 13px;
+				padding: 10px 0;
+				margin-top: -80px;
+			}
+			h2{
+				font-size: 25px;
+				text-transform: uppercase;
+				padding: 0px 0 10px 0;
+				color: black;
+			}
+		
+		h4{
+			background: #000;
+			color: #fff;
+			padding: 10px;
+			text-transform: uppercase;
+		}
+			
+
+		
+
+@media all and (max-width: 762px){
+	.articulos{
+		flex-direction;
+	}
+	h1{
+		font-size: 15px;
+	}
+}
+
+.botones{
+ padding: 10px 35px;
+ overflow:hidden;
+}
+
+.botones {
+ border: none;
+ background: #3a7999;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ 
+ box-sizing: border-box;
+ transition: all 500ms ease;
+}
